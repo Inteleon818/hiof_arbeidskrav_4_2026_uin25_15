@@ -1,9 +1,9 @@
-export default function Arbeidskrav() 
+export default function Arbeidskrav({wR}) 
 {
     return (
         <>
-            <h2>Arbeidskrav tittel</h2>
-            <p>Arbeidskrav beskrivelse</p>
+            <h2>{wR.workRequirementTitle}</h2>
+            <p>{wR.workRequirementDescription}</p>
         </>
     )
 }
