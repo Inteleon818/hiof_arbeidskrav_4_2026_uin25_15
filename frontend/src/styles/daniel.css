@@ -1,0 +1,17 @@
+article 
+{
+    margin-bottom: 2rem;
+    img 
+    {
+        width: 12rem;
+    }
+    h2
+    {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .bachelor 
+    {
+        text-align: center;
+    }
+}

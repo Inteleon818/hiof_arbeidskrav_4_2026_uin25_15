@@ -20,8 +20,11 @@ export default function Arbeidskravliste()
     console.log("Arbeidskravliste_workRequirements", workRequirements)
 
     return (
-        <section>
+        <>
+        <section className="arbeidskrav">
+            <h3 className="arbeidskrav">Arbeidskrav i UaIN</h3>
             {workRequirements?.map(wR => <Arbeidskrav key={wR._id} wR={wR} />)}
         </section>
+        </>
     )
 }
