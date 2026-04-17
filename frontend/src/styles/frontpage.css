@@ -25,7 +25,7 @@ h3
     font-size: 1.5rem;
 }
 
-.wRP, .bachelor
+.bachelor
 {
     margin: auto;
     margin-bottom: 2rem;
@@ -33,9 +33,26 @@ h3
     text-align: left;
 }
 
-.arbeidskrav 
+.arbeidskrav_tittel 
 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+.arbeidskrav_section 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: lightblue;
 }
+
+.arbeidskrav_artikkel 
+{
+    width: 40%;
+    margin: 1rem;
+    padding: 1rem;
+    padding-top: 0;
+    background-color: white;
+    border: 3px black solid;
+}
+

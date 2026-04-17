@@ -21,8 +21,8 @@ export default function Arbeidskravliste()
 
     return (
         <>
-        <section className="arbeidskrav">
-            <h3 className="arbeidskrav">Arbeidskrav i UaIN</h3>
+        <section className="arbeidskrav arbeidskrav_section">
+            <h3 className="arbeidskrav arbeidskrav_tittel">Arbeidskrav i UaIN</h3>
             {workRequirements?.map(wR => <Arbeidskrav key={wR._id} wR={wR} />)}
         </section>
         </>
