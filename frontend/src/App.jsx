@@ -5,6 +5,7 @@ import Arbeidskravliste from './components/Arbeidskravliste.jsx'
 import Header from './components/Header'
 import Daniel from './components/Daniel.jsx'
 import Footer from './components/Footer.jsx'
+import Madina from './components/Madina.jsx'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Header />
     <main>
       <Daniel />
+      <Madina />
       <Arbeidskravliste />
     </main>
     <Footer />
