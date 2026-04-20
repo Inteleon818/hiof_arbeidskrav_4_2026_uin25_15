@@ -1,0 +1,28 @@
+
+
+.Madina {
+
+    padding: 50px;
+    background-color: rgb(55, 255, 0);
+    
+    h2{
+        font-size: xx-small;
+    }
+
+    a {
+        color: black;
+    }
+    
+    .madinap {
+        color: rgb(75, 92, 219);
+    }
+
+    img{
+        width: 300px;
+        height: 400px;
+    }
+
+
+}
+
+
