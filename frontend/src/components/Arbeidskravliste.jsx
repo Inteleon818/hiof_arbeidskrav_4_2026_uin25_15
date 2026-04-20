@@ -10,6 +10,7 @@ export default function Arbeidskravliste()
     useEffect(() => {
         async function fetchAllWorkRequirements() 
         {
+            //Sortere dokumenter fra query i en bestemt rekkefølge: https://www.sanity.io/docs/content-lake/query-cheat-sheet (På 'Ordering delen av siden')
             const allWorkRequirements = await client.fetch("*[_type == 'workRequirement']{_id, workRequirementTitle, workRequirementDescription} | order(workRequirementTitle asc)")
             setWorkRequirements(allWorkRequirements)
         }

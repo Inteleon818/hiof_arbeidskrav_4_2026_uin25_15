@@ -4,9 +4,14 @@ h1, h2, h3, h4, p
     color: black;
 }
 
-main 
+header, main, footer 
 {
     background-color: white;
+}
+
+footer 
+{
+    padding-top: 2rem;
 }
 
 h1 
