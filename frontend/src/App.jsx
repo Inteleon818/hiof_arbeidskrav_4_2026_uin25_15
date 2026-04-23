@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Daniel from './components/Daniel.jsx'
 import Footer from './components/Footer.jsx'
 import Madina from './components/Madina.jsx'
+import Ruby from './components/Ruby.jsx'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <main>
       <Daniel />
       <Madina />
+      <Ruby />
       <Arbeidskravliste />
     </main>
     <Footer />
